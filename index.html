@@ -34,19 +34,20 @@
   </head>
   <body class="mainbody">
     <header>
-      <h1>Color Game</h1>
+      <h1 id="bg-change">Color Game</h1> 
       <p class="status">
         Try to guess the right color based on the RGB value by clicking on the
-        blocks.
+        blocks. 
       </p>
+      <span class="diff__btn" onclick="resetGame()" style="background-color: crimson;color: #fff;">Reset Game</span>
     </header>
 
     <main>
       <p class="rgb"></p>
       <div class="colors"></div>
       <div class="diff">
-        <span class="diff__btn active">6</span>
-        <span class="diff__btn">9</span>
+        <span class="diff__btn easy">6</span>
+        <span class="diff__btn hard">9</span>
       </div>
     </main>
 

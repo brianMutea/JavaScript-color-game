@@ -2,6 +2,7 @@ body {
   font-family: Arial;
   text-align: center;
   margin: 10px;
+  font-size: 65px;
 }
 .mainbody {
   /* display: flex; */
@@ -15,9 +16,9 @@ body {
 h1 {
   font-size: 2rem;
 }
-/* header{
-      w
-  } */
+p {
+  font-size: 1.2rem;
+}
 
 main {
 }
@@ -50,7 +51,6 @@ main {
   min-width: 300px;
   width: 60vw;
   margin: 20px auto;
-  font-size: 1rem;
 }
 
 .diff {
@@ -58,14 +58,16 @@ main {
 }
 
 .diff__btn {
+  display: inline-block;
+  width: 100px;
+  height: max-content;
   font-size: 14px;
   border: solid 1px;
-  border-radius: 50%;
   padding: 10px;
   cursor: pointer;
 }
 
-.diff__btn.active {
+.active {
   background: black;
   color: white;
   border-color: black;
