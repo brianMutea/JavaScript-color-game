@@ -49,7 +49,8 @@ function resetGame() {
   setColors();
   statusEl.innerHTML =
     `Try to guess the right color based on the RGB value by clicking on the blocks.`;
-    statusEl.style.color = '';
+  statusEl.style.color = '';
+  h1_change_bg.style.backgroundColor = '';
 }
 
 function setColors() {
