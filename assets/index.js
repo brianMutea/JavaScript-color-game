@@ -7,7 +7,7 @@ let rgbEl = document.querySelector(".rgb");
 let h1_change_bg = document.getElementById('bg-change');
 let statusEl = document.querySelector(".status");
 let n = 6;
-
+easy.classList.add('active');
 easy.addEventListener('click', () => {
   easy.classList.add('active');
   n = easy.innerHTML;
